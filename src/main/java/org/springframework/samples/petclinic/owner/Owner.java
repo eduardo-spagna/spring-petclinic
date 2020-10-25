@@ -159,4 +159,5 @@ public class Owner extends Person {
 	public void setEnabled(boolean enabled) {
 		this.enabled = enabled;
 	}
+
 }
