@@ -24,6 +24,12 @@ Or you can run it from Maven directly using the Spring Boot Maven plugin. If you
 ./mvnw spring-boot:run
 ```
 
+When a class is changed it can happen that the spring-javaformat library doesn't let build the code. To resolve this just run the command:
+
+```
+./mvnw spring-javaformat:apply
+```
+
 ## In case you find a bug/suggested improvement for Spring Petclinic
 Our issue tracker is available here: https://github.com/spring-projects/spring-petclinic/issues
 
